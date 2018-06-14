@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --black-foundation: #1d1e21;
+  --white-foundation: #f5f5f5;
+  --positive: #177F75;
+  --negative: #685642;
+  --action: #7F171F;
+  --brand: #B6212D;
+  --textsize: 30px;
+}
+body {
+  font-family: 'Poiret One';
+  background-color: var(--white-foundation);
+}
+header {
+  background-image: url(../images/portada.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  max-width: 100%;
+}
+h1 {
+  color: var(--white-foundation);
+  text-align: center;
+  font-size: 50px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 56px;
+}
+h3 {
+  color: var(--action)
+  font-size: 30px;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  text-align: justify;
+}
+#chartdiv {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+}
+#contact {
+  background-color: var(--black-foundation);
+  color: var(--white-foundation);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.aboutme: hover {
+  background-color: var(--white-foundation);
+  border: 1px solid var(--action);
+  color: var(--action);
+}
+.container-navbar {
+  padding-top: 56px;
+}
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+.funfacts-button {
+  background-color: var(--action);
+  border: none;
+  border-radius: 4px;
+  color: var(--white-foundation);
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all .3s;
+}
+.socialmedia {
+  display: inline-block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.socialmedia-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 85px;
+}
+.tools {
+  display: inline-block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tools-container {
+  align-items: center;
+
+}
+@media screen and (max-width: 2560px) {
+  .socialmedia {
+    height: 40px;
+    width: 40px;
+  }
+  .tools {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .socialmedia {
+    height: 30px;
+    width: 30px;
+  }
+  .tools {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .socialmedia {
+    height: 30px;
+    width: 30px;
+  }
+  .tools {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  #contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .socialmedia {
+    height: 25px;
+    width: 25px;
+  }
+  .socialmedia-container {
+    padding-top: 38px;
+  }
+  .tools {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .socialmedia {
+    height: 25px;
+    width: 25px;
+  }
+  .tools {
+    height: 100px;
+    width: 100px;
+  }
+}

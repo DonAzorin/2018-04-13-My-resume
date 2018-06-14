@@ -1,0 +1,22 @@
+{
+  "name": "2018-04-13webdevfrontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node_modules/.bin/live-server",
+    "firebase": "node_modules/.bin/firebase"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-tools": "^3.18.4",
+    "npm": "^6.0.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.1.0",
+    "jquery": "^3.3.1",
+    "live-server": "^1.2.0"
+  }
+}
